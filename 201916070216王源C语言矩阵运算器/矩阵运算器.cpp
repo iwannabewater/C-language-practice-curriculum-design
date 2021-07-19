@@ -508,7 +508,7 @@ int hanglieshi(int **a,int n)
 	for(i=0;i<len;i++)
 	{
 		free(p[i]);
-	}
+	}		
 	free(p);
 	return s;
 }
